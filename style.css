@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar{
+    background-color: #d5a575;
+    width: 280px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    height: 100vh;
+    justify-content:left;
+}
+
+.sidebar nav{
+    padding: 40px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 22px;
+    padding: 40px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    background-color: burlywood;
+    width: 90vw;
+    padding: 23px;
+}
+
+.container{
+    display:flex;
+}
+
+.infoContainer{
+    background-color: rgb(165, 83, 62,1);
+    height: 69vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.devPic img{
+    width: 450px;
+}
+
+.devInfo{
+    margin-top: 63px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 20px;
+    font-weight: bold;
+}
+.name{
+    font-size: 55px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.about{
+    font-size: 15px;
+    
+    font-weight:bold;
+}
+.moreInfo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 23px;
+}
+.buttons {
+    margin-top: 32px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 50px;
+    color:bisque;
+    background-color: #d5a575;
+    margin: 0 5px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color:rgb(7, 6, 6);
+    color: #d5a575;
+
+}
+.contactForm{
+    padding-top: 5px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+}
+
+.contactForm h1{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+
+}
+.contactForm div{
+    padding: 8px 0px;
+}
+.mb-3{
+    display: flex;
+    flex-direction: column;
+}
+.mb-3form-check{
+    display: flex;
+    flex-direction: column;
+}
+
+#emailHelp{
+    font-size: 12px;
+    color: #080808;
+    margin-top: 3px;
+    margin-left: 2px;
+}
+.contactForm form div input{
+    width: 350px;
+    border-radius: 7px;
+    margin: 7px 6px 0;
+    padding: 5px;
+}
+
+#form check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.blogItem{
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.blogContainer h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+
+}
+
+.blogItem p{
+    font-family: 'Source Code Pro', monospace;
+
+}
+.devInfo h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.devInfo p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+}
+.skillContainer{
+    padding: 12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+.skill{
+    margin: 8px;
+    width: 143px;
+    height: 20px;
+    
+    background-color: black;
+    border: 2px solid #d5a575;
+    
+}
+.hundred{
+    width: 265px;
+}
+.fifty{
+    width: 125px;
+}
+.s5{
+    width: 200px;
+}
